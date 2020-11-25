@@ -1,345 +1,339 @@
  
- @font-face {
-   font-family: 'SF UI Text Bold';
-   font-style: normal;
-   font-weight: normal;
-   src: local('SF UI Text Bold'), url('Fuentes/SFUIText-Bold.woff') format('woff');
-  }
+@font-face {
+  font-family: 'SF UI Text Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF UI Text Bold'), url('Sources/SFUIText-Bold.woff') format('woff');
+}
 
- @font-face {
-   font-family: 'SF UI Text Light';
-   font-style: normal;
-   font-weight: normal;
-   src: local('SF UI Text Light'), url('Fuentes/SFUIText-Light.woff') format('woff');
-  }
+@font-face {
+  font-family: 'SF UI Text Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF UI Text Light'), url('Sources/SFUIText-Light.woff') format('woff');
+}
 
- @font-face {
-   font-family: 'SF UI Text Medium';
-   font-style: normal;
-   font-weight: normal;
-   src: local('SF UI Text Medium'), url('Fuentes/SFUIText-Medium.woff') format('woff');
-  }
+@font-face {
+  font-family: 'SF UI Text Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF UI Text Medium'), url('Sources/SFUIText-Medium.woff') format('woff');
+}
 
- @font-face {
-   font-family: 'SF UI Text Heavy';
-   font-style: normal;
-   font-weight: normal;
-   src: local('SF UI Text Heavy'), url('Fuentes/SFUIText-Heavy.woff') format('woff');
-  }
+@font-face {
+  font-family: 'SF UI Text Heavy';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF UI Text Heavy'), url('Sources/SFUIText-Heavy.woff') format('woff');
+}
 
- #headboard {background:  #192E57;border: 2px solid silver;
-   display:flex;
-   width: 1398px;
-   flex-direction:row;
-   flex-wrap:wrap;
-   justify-content:flex-start;
-   align-self:center;
-   margin: 0 auto;
-    flex:none;
-  }
-  
- #headboard1 {
-   display:flex;
-   width: 1000px;
-   flex-direction:row;
-   flex-wrap:wrap;
-   justify-content:center;
-   align-self:center;
-   padding:0px 0px;
-   margin: 0 auto;
-  }
+#headboard {background:  #192E57;
+  border: 2px solid silver;
+  display:flex;
+  width: 100%;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:flex-start;
+  align-self:center;
+  margin: 0 auto;
+}
+ 
+.headboard1 {
+  display:flex;
+  width: 100%;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-self:center;
+  padding:0px 50px;
+  margin: 0 auto;
+}
 
- #header1{background:  #182A50;
-   width: 120px;
-   align-self:center;
-   align-items: center;
-   justify-content: flex-start;
-   text-align: center;
-   display: flex;
-   height: 50px;
-   padding:0px 50px              
-  }
-  
- #header2{
-   width: 890px;
-   height: 50px;
-   align-self:center;
-   align-items: center;
-   justify-content: flex-start;
-  }
-  
- #header3{
-   width: 140px;
-   align-self:center;
-   height:60px;
-   align-items: center;
-   justify-content: center;
-   text-align: left;
-   padding:0px 5px
-  }
+#header1{background:  #182A50;
+  width: 10%;
+  align-self:center;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  display: flex;
+  height: 60px;
+  padding:0px 50px              
+}
+ 
+#header31{border-left: 2px solid black;}
 
- #header4{
-   width: 450px;
-   display:flex;
-   flex-direction:row;
-   flex-wrap:wrap;
-   justify-content:flex-start;
-   align-self:center;
-   margin: 0 auto;
-   align-items: center;
-   text-align: left;
-   color: #99A1B5;
-  }
+#header3{
+  width: 140px;
+  align-self:center;
+  height:60px;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  padding:0px 5px
+}
+
+#header4{
+  width: 80%;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:flex-start;
+  align-self:center;
+  margin: 0 auto;
+  align-items: center;
+  text-align: left;
+  color: #99A1B5;
+}
+ 
+#header6{
+  width: 80px;
+  align-self:center;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 0px;
+}
+ 
+#header7{
+  width: 80px;
+  align-self:center;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 0px;
+}
+ 
+#header6 input{
+  color: white;
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+ 
+#header7 input{
+  color: white;
+  background:#192E57;
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+ 
+input{
+  color: white;
+  background:#395FC6;
+  border-radius: 20px;
+  padding: 8px 10px;
+  outline: none;
+}
+ 
+#botom input {color: black;
+  background:white;
+  border-radius: 15px;
+  font-family: 'SF UI Text Bold';
+  font-size: 10px;
+  box-shadow: 0 0 0 1.5px silver;
+  outline: none;
+  border: 0px 
+}
   
- #header5{
-   width: 500px;
-   align-self:center;
-   align-items: center;
-   justify-content: center;
-  }
-  
- #header6{
-   width: 80px;
-   align-self:center;
-   align-items: center;
-   justify-content: center;
-  }
-  
- #header7{
-   width: 80px;
-   align-self:center;
-   align-items: center;
-   justify-content: center;
-   padding-right: 20px;
-  }
-  
- #header6 input{
-   color: white;
-   border-radius: 8px;
-   padding: 8px 10px;
-  }
-  
- #header7 input{
-   color: white;
-   background:#192E57;
-   border-radius: 8px;
-   padding: 8px 10px;
-  }
-  
- input{
-   color: white;
-   background:#395FC6;
-   border-radius: 20px;
-   padding: 8px 10px;
-   border:0px;
-  }
-  
- #botom input {color: black;
-   background:white;
-   border-radius: 15px;
-   font-family: 'SF UI Text Bold';
-   font-size: 10px;
-    box-shadow: 0 0 0 1.5px silver;
-    border:0px;
-   }
+#botom {display:flex;
+  flex-direction:column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+}
    
- #botom {display:flex;
-   flex-direction:column;
-   text-align: center;
-   align-items: center;
-   justify-content: center;
-    width: 50px;
-   }
-    
- #send1 {display:flex;
-   flex-direction:column;
-   text-align: center;
-   align-items: center;
-   justify-content: center;
-    width: 100px;
-   }   
+#send1 {display:flex;
+  flex-direction:column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+}   
+  
+#send {display:flex; 
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+  
+#header1 p {color: white; font-size: 25px;}
+ 
+#header3 p {color: white;}
+
+#header4 p {color: #99A1B5;font-size: 20px;font-family: 'SF UI Text Light';}
+
+p { color: #363642;
+  font-size: 15px;
+  font-family: 'SF UI Text Light';
+}
+
+h3 {font-size: 20px;
+ font-family: 'SF UI Text Light';
+}       
+
+#container {
+  font: 20px serif;
+  width: 100%;
+  display:flex;
+  flex:none;
+  flex-direction:column;
+  background:white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#main-sidebar{
+  width: 100%;
+  display:flex;
+  align-self:center;
+  flex:none;
+}
+
+#headboard1 { width: 1400px;
+  height:60px;
+  align-self:center;
+}
+
+#content {background:#eaeef4;
+  display:flex;
+  width: 90%;
+  height: 900px;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:center;
+  padding:30px 5px;
+}
+
+#main{background:#dce1e9;
+  width: 16%;  
+  padding:40px 5px;
+  text-align: left;
+}
+ 
+#main1 a {color:#395FC6;}
+
+#main1{
+  width: 200px;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:flex-start;
+  align-self:center;
+  margin: 0 auto;
+  align-items: center;
+  text-align: left;
+  padding-left: 10px;
+}
    
- #send {display:flex; 
-   text-align: center;
-   align-items: center;
-   justify-content: center;
-   width: 260px;
-   flex-direction:row;
-   flex-wrap:wrap;
-   }
+#main2{
+  width: 200px;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:flex-start;
+  align-self:center;
+  margin: 0 auto;
+  align-items: center;
+  text-align: left;
+  padding-left: 10px;
+}
    
-  
-
- #header1 p {color: white; font-size: 25px;}
-  
- #header3 p {color: white;}
-
- #header4 p {color: #99A1B5;font-size: 20px;font-family: 'SF UI Text Light';}
-
- p { color: #363642;
-    font-size: 15px;
-    font-family: 'SF UI Text Light';
-  }
-
- h3 {font-size: 20px;
-  font-family: 'SF UI Text Light';}       
-
- #container {
-   font: 20px serif;
-   width: 1500px;
-   display:flex;
-   flex:none;
-   flex-direction:column;
-   background:white;
-   text-align: center;
-   align-items: center;
-   justify-content: center;
-   margin: 0 auto;
-  }
-
- #main-sidebar{
-   width: 1400px;
-   display:flex;
-   align-self:center;
-    flex:none;
-
-  }
-
- #headboard1 { width: 1400px;
-   height:60px;
-   align-self:center;
-  }
-
- #content {background:#eaeef4;
-   display:flex;
-   width: 1170px;
-   height: 850px;
-   flex-direction:row;
-   flex-wrap:wrap;
-   justify-content:center;
-   padding:30px 5px;
-  }
-
- #main{background:#dce1e9;
-   width: 285px;  
-   padding:40px 5px;
-   text-align: left;
-  }
-  
- #main1 a {color:#395FC6;}
-
- #main1{
-   width: 200px;
-   display:flex;
-   flex-direction:row;
-   flex-wrap:wrap;
-   justify-content:flex-start;
-   align-self:center;
-   margin: 0 auto;
-   align-items: center;
-   text-align: left;
-   padding-left: 10px;
-   }
-    
- #main2{
-   width: 200px;
-   display:flex;
-   flex-direction:row;
-   flex-wrap:wrap;
-   justify-content:flex-start;
-   align-self:center;
-   margin: 0 auto;
-   align-items: center;
-   text-align: left;
-   padding-left: 10px;}
-    
- #main3{
-   width: 200px;
-   display:flex;
-   flex-direction:row;
-   flex-wrap:wrap;
-   justify-content:flex-start;
-   align-self:center;
-   margin: 0 auto;
-   align-items: center;
-   text-align: left;
-    padding-left: 10px;
-  }
+#main3{
+  width: 200px;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:flex-start;
+  align-self:center;
+  margin: 0 auto;
+  align-items: center;
+  text-align: left;
+  padding-left: 10px;
+}
       
- #main4{
-   width: 200px;
-   display:flex;
-   flex-direction:row;
-   flex-wrap:wrap;
-   justify-content:flex-start;
-   align-self:center;
-   margin: 0 auto;
-   align-items: center;
-   text-align: left;
-   padding-left: 10px;
-  }
-    
- #main12{padding-right: 20px;
- padding-top:7px;
- }
-    
-
-
- a {text-decoration: none;
-   font-size: 15px;
-   font-family: 'SF UI Text Light';
-   color: #363642;
-   float: left;
-   clear: left;
-   padding: 4px;
-   padding-top:7px;
-  }
-
-  #main14{color: #395FC6;}
-
- #sidebar1{border: 1px solid silver;
-   background: white;
-   width: 265px; 
-   height:180px;
-   padding:30px 5px;
-   align-items: center;
-   margin: 10px 5px;
-   justify-content: center;
-   text-align: center;
-   align-self:center; 
-  }
-  
- .image {
-   width:70px;
-    height:70px;
-   border-radius:150px;
-  }
-  
- #header31 .image {width:40px;
-    height:40px;
-   border-radius:150px;
-    padding:10px 10px;
-   }
+#main4{
+  width: 200px;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:flex-start;
+  align-self:center;
+  margin: 0 auto;
+  align-items: center;
+  text-align: left;
+  padding-left: 10px;
+}
    
- #header32{border: 2px solid black;
-   display:flex;
-   width: 260px;
-   flex-direction:row;
-   flex-wrap:wrap;
-   justify-content:flex-start;
-   align-self:center;
-   margin: 0 auto;
-   border-right: 0px;
-  }
+#main12{padding-right: 20px;
+padding-top:7px;}
    
- #header33 input {width:40px;
-   height:20px;
-   padding:0px 0px;
-   margin: 10px auto;
-   color:black;
-   border-radius: 5px;
-   font-family: 'SF UI Text Light';
-   background:white;
-   font-size: 10px;
-  }
+a {text-decoration: none;
+  font-size: 15px;
+  font-family: 'SF UI Text Light';
+  color: #363642;
+  float: left;
+  clear: left;
+  padding: 4px;
+  padding-top:7px;
+}
+
+#main14{color: #395FC6;}
+
+.sidebar1{border: 1px solid silver;
+  background: white;
+  width: 22%; 
+  height:200px;
+  padding:30px 8px;
+  align-items: center;
+  margin: 10px 5px;
+  justify-content: center;
+  text-align: center;
+  align-self:center; 
+}
+ 
+.image {
+  width:70px;
+  height:70px;
+  border-radius:150px;
+}
+ 
+#header31 .image {width:40px;
+  height:40px;
+  border-radius:150px;
+  padding:10px 10px;
+}
   
+#header32{
+  display:flex;
+  width: 80%;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:flex-end;
+  align-self:center;
+  margin: 0 auto;
+  border-right: 0px;
+}
+
+#header41{padding-right: 5px;}
+
+#header33 input {width:50px;
+ height:20px;
+ padding:0px 0px;
+ margin: 10px auto;
+ color:black;
+ border-radius: 5px;
+ font-family: 'SF UI Text Light';
+ background:white;
+ font-size: 15px;
+}
+
+.card {
+ width: 100%;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: unset;
+}
