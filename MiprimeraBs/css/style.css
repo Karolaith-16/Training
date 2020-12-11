@@ -1,0 +1,13 @@
+.img {background: url("../images/mar.jpg") no-repeat center center;
+    height: 500px;
+    display: flex;
+}
+
+.img2 {background: url("../images/mar.jpg") no-repeat center center;
+    height: 200px;
+    display: flex;
+}
+
+.showcase .showcase-img {
+   min-height: 600px;
+}
