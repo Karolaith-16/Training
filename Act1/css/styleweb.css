@@ -1,0 +1,63 @@
+
+body{background-color: rgb(241, 240, 240);}
+
+#contenedor{
+   width: 75%;
+   margin: 0 auto;
+   display:flex;
+   flex-direction:column;
+} 
+
+h1 { color: #770077;
+     font: 2.5em Times, Helvetica, sans-serif;
+     text-align: center; 
+   }
+
+h3 { color: #369;}
+
+p  { color: black; 
+     text-align:justify
+   }
+
+ol { color: #369}
+
+a {
+    color: #770077;
+    clear: left;
+    padding: 2px;
+ }
+
+a:hover {
+    text-decoration: none;
+    background-color: #369;
+    color: black;
+}
+
+a :visited {
+   color: #a0a0a0;
+}
+
+#galeria img {
+margin: 1em;
+padding: .5em;
+border: 10px double #CCC;
+}
+
+table {
+  font: .9em Arial, Helvetica, sans-serif;
+  border: .1em solid #333;
+  border-collapse: collapse;
+ }    
+ 
+   table th {
+  background: #F5F5F5 url(https://uniwebsidad.com/static/libros/ejercicios/css/comun/imagenes/fondo_gris.gif) repeat-x;
+  padding: 0 .3em;
+ }
+ 
+  .par {
+  background-color:#faaea436;
+ }
+ 
+    table tr:hover {
+  background: #77007736 !important;
+ }

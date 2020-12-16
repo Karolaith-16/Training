@@ -1,0 +1,9 @@
+#galeria {
+    max-width: 650px;
+  }
+  #galeria img {
+    float: left;
+    margin: 1em;
+    padding: 1em;
+    border: 5px groove #CCC;
+  }
