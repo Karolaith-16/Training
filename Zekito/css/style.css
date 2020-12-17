@@ -122,7 +122,15 @@ input{
   outline: none;
 }
  
-#botom input {color: black;
+#botom1 {display:flex;
+  flex-direction:column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+}
+
+#botom1 input {color: black;
   background:white;
   border-radius: 15px;
   font-family: 'SF UI Text Bold';
@@ -131,16 +139,8 @@ input{
   outline: none;
   border: 0px 
 }
-  
-#botom {display:flex;
-  flex-direction:column;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  width: 50px;
-}
    
-#send1 {display:flex;
+#send11 {display:flex;
   flex-direction:column;
   text-align: center;
   align-items: center;
@@ -148,7 +148,7 @@ input{
   width: 100px;
 }   
   
-#send {display:flex; 
+#send1 {display:flex; 
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -156,10 +156,395 @@ input{
   flex-direction:row;
   flex-wrap:wrap;
 }
+
+#botom2 {display:flex;
+  flex-direction:column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+}
+
+#botom2 input {color: black;
+  background:white;
+  border-radius: 15px;
+  font-family: 'SF UI Text Bold';
+  font-size: 10px;
+  box-shadow: 0 0 0 1.5px silver;
+  outline: none;
+  border: 0px 
+}
+   
+#send22 {display:flex;
+  flex-direction:column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+}   
   
+#send2 {display:flex; 
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+
+#botom3 {display:flex;
+  flex-direction:column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+}
+
+#botom3 input {color: black;
+  background:white;
+  border-radius: 15px;
+  font-family: 'SF UI Text Bold';
+  font-size: 10px;
+  box-shadow: 0 0 0 1.5px silver;
+  outline: none;
+  border: 0px 
+}
+   
+#send33 {display:flex;
+  flex-direction:column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+}   
+  
+#send3 {display:flex; 
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+
+#botom4 {display:flex;
+  flex-direction:column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+}
+
+#botom4 input {color: black;
+  background:white;
+  border-radius: 15px;
+  font-family: 'SF UI Text Bold';
+  font-size: 10px;
+  box-shadow: 0 0 0 1.5px silver;
+  outline: none;
+  border: 0px 
+}
+   
+#send44 {display:flex;
+  flex-direction:column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+}   
+  
+#send4 {display:flex; 
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+
+#botom5 {display:flex;
+  flex-direction:column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+}
+
+#botom5 input {color: black;
+  background:white;
+  border-radius: 15px;
+  font-family: 'SF UI Text Bold';
+  font-size: 10px;
+  box-shadow: 0 0 0 1.5px silver;
+  outline: none;
+  border: 0px 
+}
+   
+#send55 {display:flex;
+  flex-direction:column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+}   
+  
+#send5 {display:flex; 
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+
+#botom6 {display:flex;
+  flex-direction:column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+}
+
+#botom6 input {color: black;
+  background:white;
+  border-radius: 15px;
+  font-family: 'SF UI Text Bold';
+  font-size: 10px;
+  box-shadow: 0 0 0 1.5px silver;
+  outline: none;
+  border: 0px 
+}
+   
+#send66 {display:flex;
+  flex-direction:column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+}   
+  
+#send6 {display:flex; 
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+
+#botom7 {display:flex;
+  flex-direction:column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+}
+
+#botom7 input {color: black;
+  background:white;
+  border-radius: 15px;
+  font-family: 'SF UI Text Bold';
+  font-size: 10px;
+  box-shadow: 0 0 0 1.5px silver;
+  outline: none;
+  border: 0px 
+}
+   
+#send77 {display:flex;
+  flex-direction:column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+}   
+  
+#send7 {display:flex; 
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+
+#botom8 {display:flex;
+  flex-direction:column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+}
+
+#botom8 input {color: black;
+  background:white;
+  border-radius: 15px;
+  font-family: 'SF UI Text Bold';
+  font-size: 10px;
+  box-shadow: 0 0 0 1.5px silver;
+  outline: none;
+  border: 0px 
+}
+   
+#send88 {display:flex;
+  flex-direction:column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+}   
+  
+#send8 {display:flex; 
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+
+#botom9 {display:flex;
+  flex-direction:column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+}
+
+#botom9 input {color: black;
+  background:white;
+  border-radius: 15px;
+  font-family: 'SF UI Text Bold';
+  font-size: 10px;
+  box-shadow: 0 0 0 1.5px silver;
+  outline: none;
+  border: 0px 
+}
+   
+#send99 {display:flex;
+  flex-direction:column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+}   
+  
+#send9 {display:flex; 
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+
+#botom10 {display:flex;
+  flex-direction:column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+}
+
+#botom10 input {color: black;
+  background:white;
+  border-radius: 15px;
+  font-family: 'SF UI Text Bold';
+  font-size: 10px;
+  box-shadow: 0 0 0 1.5px silver;
+  outline: none;
+  border: 0px 
+}
+   
+#send101 {display:flex;
+  flex-direction:column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+}   
+  
+#send10 {display:flex; 
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+
+#botom11 {display:flex;
+  flex-direction:column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+}
+
+#botom11 input {color: black;
+  background:white;
+  border-radius: 15px;
+  font-family: 'SF UI Text Bold';
+  font-size: 10px;
+  box-shadow: 0 0 0 1.5px silver;
+  outline: none;
+  border: 0px 
+}
+   
+#send111 {display:flex;
+  flex-direction:column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+}   
+  
+#send13 {display:flex; 
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+
+#botom12 {display:flex;
+  flex-direction:column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+}
+
+#botom12 input {color: black;
+  background:white;
+  border-radius: 15px;
+  font-family: 'SF UI Text Bold';
+  font-size: 10px;
+  box-shadow: 0 0 0 1.5px silver;
+  outline: none;
+  border: 0px 
+}
+   
+#send121 {display:flex;
+  flex-direction:column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+}   
+  
+#send12 {display:flex; 
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
 #header1 p {color: white; font-size: 25px;}
  
-#header3 p {color: white;}
+#header3 p {color:white; 
+  line-height: 20%;}
 
 #header4 p {color: #99A1B5;font-size: 20px;font-family: 'SF UI Text Light';}
 
@@ -170,7 +555,11 @@ p { color: #363642;
 
 h3 {font-size: 20px;
  font-family: 'SF UI Text Light';
-}       
+} 
+
+.card h3 {line-height: 20%;}
+
+.card p {line-height: 30%;}
 
 #container {
   font: 20px serif;
@@ -240,6 +629,9 @@ h3 {font-size: 20px;
   text-align: left;
   padding-left: 10px;
 }
+
+#main21{padding-right: 20px;
+  padding-top:7px;}
    
 #main3{
   width: 200px;
@@ -253,6 +645,9 @@ h3 {font-size: 20px;
   text-align: left;
   padding-left: 10px;
 }
+
+#main31{padding-right: 20px;
+  padding-top:7px;}
       
 #main4{
   width: 200px;
@@ -266,6 +661,9 @@ h3 {font-size: 20px;
   text-align: left;
   padding-left: 10px;
 }
+
+#main41{padding-right: 20px;
+  padding-top:7px;}
    
 #main12{padding-right: 20px;
 padding-top:7px;}
