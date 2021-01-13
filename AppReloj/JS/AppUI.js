@@ -1,5 +1,5 @@
-// Muestra si hay un error en los numeros digitados 
-function evince() {
+// changeLayout Muestra verticalmente  
+function changeLayout() {
    var hours = document.getElementById("input-hour");
    var minutes = document.getElementById("input-minute");
  
@@ -12,39 +12,38 @@ function evince() {
  
  // Hallar angulo 
  
- function myFunction() {
- 
-   var hours = document.getElementById("hours").value;
-   var minutes = document.getElementById("minutes").value;
-   var text_secondary = document.getElementById("text-secondary");
-   var text_initial = document.getElementById("text-initial");
-   var input_error = document.getElementById("input-error");
+function sendInformation() {
+  var hours = document.getElementById("hours").value;
+  var minutes = document.getElementById("minutes").value;
+  var textSecondary = document.getElementById("text-secondary");
+  var textInitial = document.getElementById("text-initial");
+  var inputError = document.getElementById("input-error");
  
   // Muestra si hay un error en los numeros digitados 
-   if(! input_error.classList.contains('d-none')){
-     input_error.classList.add('d-none');
+  if(! inputError.classList.contains('d-none')){
+    inputError.classList.add('d-none');
   }
  
-   // Validate error
-   if (hours > 12) {
-     return input_error.classList.remove ("d-none")
-   }
+  // Validate error
+  if (hours > 12) {
+    return inputError.classList.remove ("d-none")
+  }
  
-   if (minutes > 59) {
-     return input_error.classList.remove ("d-none")
-   }
+  if (minutes > 59) {
+    return inputError.classList.remove ("d-none")
+  }
  
-   var angle = (30 * hours) - ((11 / 2) * minutes);
-   console.log(angle);
+  var angle = (30 * hours) - ((11 / 2) * minutes);
+  console.log(angle);
  
-   // Process angle
-   document.getElementById("angle").innerHTML = angle + "º"
-   // Mostrar las horas y minutos con las que se hace el angulo
-   document.getElementById("hour").innerHTML = hours + ' Hours'
-   document.getElementById("minute").innerHTML = minutes + ' Minutes'
+  // Process angle
+  document.getElementById("angle").innerHTML = angle + "º"
+  // Mostrar las horas y minutos con las que se hace el angulo
+  document.getElementById("hour").innerHTML = hours + ' Hours'
+  document.getElementById("minute").innerHTML = minutes + ' Minutes'
  
-   text_initial.classList.add("d-none");
-   text_secondary.classList.remove ("d-none");
- }
+  textInitial.classList.add("d-none");
+  textSecondary.classList.remove ("d-none");
+}
  
  
