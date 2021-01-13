@@ -2,70 +2,57 @@
      background-color: #FCF9D7;
      margin-top: 1em;
      margin-bottom: 3em;
- }
+}
  
- .hear{
-      width: 1200px;
-      height: 300px;
-      margin: 0 auto;
-      margin-top: 25%;
-      margin-bottom: 25%;
- }
+.hear{
+   width: 1200px;
+   height: 300px;
+   margin: 0 auto;
+   margin-top: 25%;
+   margin-bottom: 25%;
+}
  
- .hear1{
-      width: 600px;
-      margin: 0 auto;
- }
+.hear1{
+  width: 600px;
+  margin: 0 auto;
+}
  
- h1{background-color: white;
-      color: #787878;
-      border: white;
-      width: 130px;
-      margin: 0 auto;
-      margin-top: 10px;
- }
+h1{background-color: white;
+   color: #787878;
+   border: white;
+   width: 130px;
+   margin: 0 auto;
+   margin-top: 10px;
+}
  
- h5{color: #787878;
+h5{color: #787878;
   margin-top: 30px;
- }
+}
  
- .Bad1 {color: #c65353;
+.input-error {color: #c65353;
  border-color: #c65353;
  text-align: center;
  align-items: center;
  width: 100%;
- }
+}
  
- #But {background-color: #46b02c;
-      color: white;
-      border-color: #46b02c;
-      text-align: center;
-      align-items: center;
-      width: 100%;
- }
+#boton-information {background-color: #46b02c;
+   color: white;
+   border-color: #46b02c;
+   text-align: center;
+   align-items: center;
+   width: 100%;
+}
  
- #But1 {
-      color: #46b02c;
-      border-color: #46b02c;
-      text-align: center;
-      align-items: center;
-      width: 100%; 
-      margin-top: 25px;
- }
+#input-changen {color: #46b02c;
+   border-color: #46b02c;
+   text-align: center;
+   align-items: center;
+   width: 100%; 
+   margin-top: 25px;
+}
  
- #But2 {background-color: #46b02c;
-      color: white;
-      border-color: #46b02c;
-      text-align: center;
-      align-items: center;
-      width: 100%;
- }
+#hour { color: #46b02c;}
  
- #h { color: #46b02c;}
- 
- #m { color: #46b02c;}
- 
- #min { color: #46b02c;}
- 
- #hou { color: #46b02c;}
+#minute { color: #46b02c;}
  
