@@ -46,6 +46,11 @@ function sendInformation() {
   var angle = (30 * hours) - ((11 / 2) * minutes);
   console.log(angle);
 
+  if (angle < 0){
+    angle = angle * (-1);
+    document.getElementById("angle").innerHTML = angle + "º"
+  }
+
   // Process angle
   document.getElementById("angle").innerHTML = angle + "º"
   // Mostrar las horas y minutos con las que se hace el angulo
