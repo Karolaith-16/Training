@@ -15,8 +15,8 @@
  <body class="container center-block bg-light">
      <div class="col-sm-12 hear bg-light">
          <div class="col-sm-7 align-self-center hear1 bg-white border">
-             <!-- Button Horizontal -->
              <div class="container align-self-center py-1 text-muted boton-layout">
+                 <!-- Button chagenLayout -->
                  <div class="row py-3 border-bottom">
                      <div class="col-sm-8 text-muted align-self-center">
                          <h5>Get angle º value with specific time.</h5>
@@ -25,10 +25,13 @@
                          <button id="input-changen" onclick="changeLayout()" class="btn btn-sm btn-outline" type="submit">Chagen Layout</button>
                      </div>
                  </div>
+
+                 <!-- Button error -->
                  <div>
-                     <button id="input-error" class="py-1 input-error btn btn-sm btn-outline d-none"  type="submit">Bad Request</button>
+                     <button id="input-error" class="py-1 input-error btn btn-sm btn-outline d-none mt-4"  type="submit">Bad Request</button>
                  </div>
 
+                 <!-- Button Hours And Minutes -->
                  <div id="boton" class="row  py-3"> 
                      <div id="input-hour" class="col-sm-6 active">
                          <label for="inputEmail" class="visually-hidden">Hours</label>
@@ -41,6 +44,7 @@
                      </div>
                  </div>
 
+                 <!-- Button sendInformation -->
                  <button id="boton-information"  onclick="sendInformation()" class="w-100 btn btn-ms " type="submit">Send Information</button>
                  <div class="footer col-sm-12 text-center text-muted py-3">
                     <p id="text-initial">Add hours add minutes to get an angle.</p> 
