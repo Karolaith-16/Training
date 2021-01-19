@@ -1,0 +1,61 @@
+
+#container{
+     width: 230px;
+     height: 395px;
+     text-align: center;
+     margin: 20% auto;
+     background-color: rgba(0, 0, 0, 0.79);
+     border-radius: 8px;
+}
+.bottons{
+     width: 50px;
+     height: 50px;
+     background-color: rgba(128, 128, 128, 0.379);
+     color: white;
+     margin-top: 4px;
+     border-radius: 8px;
+     text-align: center;
+}
+
+.bottons-special{
+     width: 105px;
+     height: 50px;
+     background-color: rgba(128, 128, 128, 0.379);
+     color: white;
+     margin-top: 4px;
+     border-radius: 8px;
+     text-align: center;
+}
+
+.btn-special{
+     width: 50px;
+     height: 50px;
+     background-color: rgb(240, 164, 32);
+     text-align: center;
+}
+
+.btn-spc{
+     width: 158px;
+     height: 50px;
+     background-color: rgb(240, 164, 32);
+     text-align: center;
+}
+
+.textview{
+     color: white;
+     text-align: right; 
+     margin: 10px 10px;
+     height: 70px;
+     background-color:  rgba(0, 0, 0, 0.79);
+
+}
+
+h6{
+     font-family: 'Homemade Apple';
+     margin: 0 auto;
+     color: rgb(235, 235, 235);
+     padding-top: 8px;
+}
+
+h5{padding-top: 25px; padding-right: 8px;}
+
